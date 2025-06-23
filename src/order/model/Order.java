@@ -8,6 +8,12 @@ public class Order {
     private double price;
     private LocalDateTime time;
 
+    public Order(String dish, double price, LocalDateTime time) {
+        this.dish = dish;
+        this.price = price;
+        this.time = time;
+    }
+
     public String getDish() {
         return dish;
     }
